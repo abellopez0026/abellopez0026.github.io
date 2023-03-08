@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 /*NAVBAR*/
 
@@ -11,10 +12,51 @@
     justify-content: space-between;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*HERO*/
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 400px;
+    text-align: center;
+}
+
+.hero-main {
+    padding: 3rem;
+}
+
+.hero-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-main  h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.hero-main  h2 {
+    font-size: 1.5rem;
+}
+
 
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-image {
+        max-width: 600px;
     }
 }
