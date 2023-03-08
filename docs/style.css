@@ -47,7 +47,21 @@ section {
     font-size: 1.5rem;
 }
 
+.dark-section {
+    background-color: #1b1b32;
+    color: white;
+}
 
+/*ABOUT ME*/
+
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .container-gen {
+    
+}
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
