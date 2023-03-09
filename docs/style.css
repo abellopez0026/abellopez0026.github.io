@@ -76,6 +76,44 @@ section {
     font-size: 1.2rem;
 }
 
+.experience {
+    padding: 40px 40px 60px 40px;
+}
+
+.experience .light-section {
+    color: black;
+    background-color: white;
+
+}
+.badges-container span {
+    padding: 8px;
+}
+
+.experience .colm {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 20px;
+    border-radius: 50%;
+}
+
+
+
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 
 
 
